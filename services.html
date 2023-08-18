@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+		<title>Abu's Personal Website</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<ul class="navbar-nav d-flex flex-row align-items-center justify-content-around w-100">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"><span>About Me</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="experiences.html"><span>Experiences</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html"><span>Projects</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="services.html"><span class="nav-active">Services</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="assets.html"><span>Assets</span></a>
+				</li>
+			</ul>
+		</nav>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<ul class="navbar-nav d-flex flex-row align-items-center justify-content-around w-100">
+				<li class="nav-item">
+					<a class="nav-link freelancing-link"><span>Freelancing</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link tutoring-link"><span>Tutoring</span></a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="flex-grow main-cont">
+            <div class="main"></div>
+			<div class="container text-white serv-intro-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-3 title-text">My Services</p>
+						<p class="mb-3 p-text">
+							Click on the links above to learn more about the services I offer.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-white serv-freelancing-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/codelance.png" class="service-logo" />
+						<p class="mb-3 title-text">Freelancing Services</p>
+						<p class="mb-3 p-text">
+							Will create projects in areas such as game development, website
+							development, mobile app development, and data analysis and
+							visualization.
+						</p>
+						<div class="pricing-list">
+							<div class="pricing-option">
+								<div class="pricing-title">Basic</div>
+								<li>Project takes a maximum of ten hours to complete.</li>
+								<li>Requires premade designs and branding.</li>
+								<li>Pricing begins at $25 per project.</li>
+							</div>
+							<div class="pricing-option">
+								<div class="pricing-title">Premium</div>
+								<li>Project takes a maximum of thirty hours to complete.</li>
+								<li>Custom made designs and branding.</li>
+								<li>Pricing begins at $50 per project.</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-white serv-tutoring-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/educode.png" class="service-logo" />
+						<p class="mb-3 title-text">Tutoring Services</p>
+						<p class="mb-3 p-text">
+							Will provide programming lessons and personalized tutoring in languages
+							such as Python, Java, and JavaScript.
+						</p>
+						<div class="pricing-list">
+							<div class="pricing-option">
+								<div class="pricing-title">Basic</div>
+								<li>Virtual programming lessons twice a week.</li>
+								<li>Exposure based learning.</li>
+								<li>Pricing begins at $20 per hour.</li>
+							</div>
+							<div class="pricing-option">
+								<div class="pricing-title">Premium</div>
+								<li>Virtual programming lessons five times a week.</li>
+								<li>Exposure and project based learning.</li>
+								<li>Pricing begins at $30 per hour.</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

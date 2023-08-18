@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+		<title>Abu's Personal Website</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<ul class="navbar-nav d-flex flex-row align-items-center justify-content-around w-100">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"><span>About Me</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="experiences.html"><span>Experiences</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html"><span class="nav-active">Projects</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="services.html"><span>Services</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="assets.html"><span>Assets</span></a>
+				</li>
+			</ul>
+		</nav>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="main"></div>
+			<ul class="navbar-nav d-flex flex-row align-items-center justify-content-around w-100">
+				<li class="nav-item">
+					<a class="nav-link classifier-link"><span>Code Classifier</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link customer-link"><span>Twitter Analysis</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link aitotal-link"><span>AI Total</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link book-link"><span>Book Recommender</span></a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="flex-grow main-cont">
+			<div class="container text-white proj-intro-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-3 title-text">My Projects</p>
+						<p class="mb-3 p-text">
+							Click on the links above to learn more about my past projects.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-white proj-classifier-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-3 title-text">Insecure Code Classifier</p>
+						<p class="mb-3 p-text">
+							Made five machine learning classification models to detect code
+							vulnerabilities as programmers write Python code.
+						</p>
+						<p class="p-text">Made using scikit-learn, Matplotlib, and OpenAI API.</p>
+						<p class="p-text"><a href="#">Find it here</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-white proj-customer-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-3 title-text">Twitter Customer Service Analysis</p>
+						<p class="mb-3 p-text">
+							Performed topic modeling and sentiment analysis on 300,000 tweets from
+							Citi, Bank of America, Capital One, Chase, and Wells Fargo.
+						</p>
+						<p class="p-text">
+							Used gensim, pyLDAvis, TextBlob, Vader, and Matplotlib.
+						</p>
+						<p class="p-text"><a href="#">Find it here</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-white proj-aitotal-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-3 title-text">AI Total</p>
+						<p class="mb-3 p-text">
+							Made a Python program that inputs user text and scans it against five
+							popular AI detectors.
+						</p>
+						<p class="p-text">Used the web scraping library Selenium.</p>
+						<p class="p-text"><a href="#">Find it here</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-white proj-book-cont">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mb-3 title-text">Book Recommender</p>
+						<p class="mb-3 p-text">
+							Made a Python program that recommends suggested books based on user
+							preference and activity.
+						</p>
+						<p class="p-text">Used scikit-learn and Matplotlib.</p>
+						<p class="p-text"><a href="#">Find it here</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</body>
+</html>
